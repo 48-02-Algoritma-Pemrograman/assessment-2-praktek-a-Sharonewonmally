@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Nomor1 {
-
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        int N = input.nextInt();
-       printFizzBuzz(n);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukan nilai N:");
+        int n = scanner.nextInt();
+        printFizzBuzz(n);
     }
 
     public static void printFizzBuzz(int n) {
@@ -20,8 +20,5 @@ public class Nomor1 {
                 System.out.println(i);
             }
         }
-
-        System.out.println(Nomor1.class.getDeclaredMethods().length); 
     }
-    
 }
