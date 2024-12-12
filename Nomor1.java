@@ -19,6 +19,7 @@ public class Nomor1 {
             } else {
                 System.out.println(i);
             }
-        }  
+        } 
+        System.out.println(Nomor1.class.getDeclaredMethods().length);  
     }   
 }
